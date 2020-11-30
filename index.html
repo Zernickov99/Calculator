@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Solway&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="containerDisplay">
+      <div class="calcDisplay"><input type="text" id="edu" /></div>
+    </div>
+    <div class="containerOp">
+      <div class="calcOps">
+        <input type="button" value="c" onclick="clr()" />
+        <input type="button" value="+" onclick="dis('+')" />
+        <input type="button" value="-" onclick="dis('-')" />
+        <input type="button" value="*" onclick="dis('*')" />
+        <input type="button" value="/" onclick="dis('/')" />
+      </div>
+    </div>
+    <div class="containerButtons">
+      <div class="calcButtons">
+        <input type="button" value="1" onclick="dis('1')" /><!--
+        --><input type="button" value="2" onclick="dis('2')" /><!--
+        --><input type="button" value="3" onclick="dis('3')" /><!--
+        --><input type="button" value="4" onclick="dis('4')" /><!--
+        --><input type="button" value="5" onclick="dis('5')" /><!--
+        --><input type="button" value="6" onclick="dis('6')" /><!--
+        --><input type="button" value="7" onclick="dis('7')" /><!--
+        --><input type="button" value="8" onclick="dis('8')" /><!--
+        --><input type="button" value="9" onclick="dis('9')" /><!--
+        --><input type="button" value="." onclick="dis('.')" /><!--
+        --><input type="button" value="0" onclick="dis('0')" /><!--
+        --><input type="button" value="=" onclick="solve()" />
+      </div>
+    </div>
+    <div class="back">
+      <a href="http://127.0.0.1:5500/7.projekt/index.html">Back</a>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
